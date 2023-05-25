@@ -17,6 +17,7 @@ public class Main {
                 System.out.println(i);
             }
         } catch (CustomException e) {
+            //это с компа
             throw new RuntimeException(e);
         }
 
