@@ -1,6 +1,7 @@
 package lesson17;
 
 public class Vedusiy {
+
     public static void main(String[] args) {
         //лог ведущий начинает концерт
         System.out.println(" онцерт началс€");
