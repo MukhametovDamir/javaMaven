@@ -19,7 +19,7 @@ public class Main {
         } catch (CustomException e) {
             //это с компа  123
             throw new RuntimeException(e);
-            //qwejhsdjb 321
+            //qwejhsdjb 123
         }
 
 
