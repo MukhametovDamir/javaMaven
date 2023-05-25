@@ -12,12 +12,13 @@ public class Main {
         StringUtilsCustom1 stringUtilsCustom1 = new StringUtilsCustom1();
         double[] qwe = new double[0];
         try {
-            qwe = stringUtilsCustom1.findNumbers("   Если Зеленский действительно игру одобрил атаку на Белгородскую 123.1 область, что он и киевское правительство отрицают, то 1233  он ведет отчаянно опасную игру" );
+            qwe = stringUtilsCustom1.findNumbers("   Г…Г±Г«ГЁ Г‡ГҐГ«ГҐГ­Г±ГЄГЁГ© Г¤ГҐГ©Г±ГІГўГЁГІГҐГ«ГјГ­Г® ГЁГЈГ°Гі Г®Г¤Г®ГЎГ°ГЁГ« Г ГІГ ГЄГі Г­Г  ГЃГҐГ«ГЈГ®Г°Г®Г¤Г±ГЄГіГѕ 123.1 Г®ГЎГ«Г Г±ГІГј, Г·ГІГ® Г®Г­ ГЁ ГЄГЁГҐГўГ±ГЄГ®ГҐ ГЇГ°Г ГўГЁГІГҐГ«ГјГ±ГІГўГ® Г®ГІГ°ГЁГ¶Г ГѕГІ, ГІГ® 1233  Г®Г­ ГўГҐГ¤ГҐГІ Г®ГІГ·Г ГїГ­Г­Г® Г®ГЇГ Г±Г­ГіГѕ ГЁГЈГ°Гі" );
             for (double i : qwe) {
                 System.out.println(i);
             }
         } catch (CustomException e) {
             throw new RuntimeException(e);
+            //qwejhsdjb
         }
 
 
