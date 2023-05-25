@@ -17,9 +17,9 @@ public class Main {
                 System.out.println(i);
             }
         } catch (CustomException e) {
-            //это с компа
+            //это с компа  123
             throw new RuntimeException(e);
-            //qwejhsdjb
+            //qwejhsdjb 321
         }
 
 
