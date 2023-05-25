@@ -9,8 +9,12 @@ public class MyThread extends Thread {
             System.out.println(i + " " + Thread.currentThread().getName());
             try {
                 Thread.sleep(150);
+
+                System.out.println(i);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
+
+
             }
         }
 
