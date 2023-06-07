@@ -2,7 +2,7 @@ package lesson16;
 
 import java.time.LocalDateTime;
 
-public class Peson {
+public class Peson implements Runnable {
     private String name;
     private String lastName;
     private String country;
@@ -108,5 +108,10 @@ public class Peson {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 '}';
+    }
+
+    @Override
+    public void run() {
+
     }
 }
